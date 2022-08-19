@@ -8,7 +8,8 @@
             "name": "AC/DC converter test",
             "type": "python",
             "request": "launch",
-            "module": "CAN",
+            "program": "${workspaceFolder}/proto/enums.py",
+            //"module": "enums",
             "justMyCode": true
         }
     ]
